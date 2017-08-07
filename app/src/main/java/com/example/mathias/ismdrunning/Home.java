@@ -35,8 +35,8 @@ public class Home extends Activity {
     static HashMap<Integer, String> stationNames = new HashMap<>();
     TextView txtDisplay;
     LinearLayout container;
-    String md_get_url = "Kindly ask http:/mobile.hoerzu.de for API. Context here is /programbystation";
-    String stations_get_url = "Kindly ask http:/mobile.hoerzu.de for API. Context here is /appdata";
+    String md_get_url = "Kindly ask hoerzu.de for API.";
+    String stations_get_url = "Kindly ask hoerzu.de for API.";
     String json;
 
     protected void onCreate(Bundle savedInstanceState) {
